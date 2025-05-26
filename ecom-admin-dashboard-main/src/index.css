@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "@radix-ui/themes/styles.css";
+
+@font-face {
+    font-family: "Material Icons";
+    src: url("../public/mdi.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Material Icons Filled";
+    src: url("../public/mdi-filled.woff2") format("woff2");
+}
+
+.mdi {
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.mdi-filled {
+    font-family: "Material Icons Filled";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.input-field {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm;
+  }
